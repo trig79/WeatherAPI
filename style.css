@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,165), rgb(48,62,143));
+    font-family: sans-serif;
+    color: white;
+}
+
+.icon img{
+    width: 100px;
+    height: 100px;
+}
+
+.location,
+.temperatureSection{
+    height: 30vh;
+    width: 50%;
+    line-height: 45px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperatureSection{
+    flex-direction: column;
+}
+
+.actualSection,
+.realFeelSection{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.actualSection span,
+.realFeelSection span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.temperatureDegree,
+.realfeelDegree{
+    font-size: 40px;
+}
+
