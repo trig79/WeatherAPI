@@ -7,3 +7,4 @@ After some research i opted for weather API, i decided to grow the display and a
 
 In using weatherAPI i had to implement without aid of a tutorial and also in doing manged to remove the need to import icons as this API provides them.
 
+the key takeaways from this project was interaction with API, eventlistners and changing the DOM via JS.
